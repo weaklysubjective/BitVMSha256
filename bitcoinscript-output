@@ -21,41 +21,41 @@
         u32_xor()         // XOR the top two values on the stack, result is sigma1
     }
 {
-        u32_push(0x776f6273)  // Push x
+        u32_push(0x6f77206f)  // Push x
         u32_rrot(7)       // Rotate right by 7 bits
-        u32_push(0x776f6273)  // Push x again
+        u32_push(0x6f77206f)  // Push x again
         u32_rrot(18)      // Rotate right by 18 bits
         u32_xor()         // XOR the top two values on the stack
-        u32_push(0x776f6273)  // Push x again
+        u32_push(0x6f77206f)  // Push x again
         u32_shr(3)        // Shift right by 3 bits (if u32_shr is available)
         u32_xor()         // XOR the top two values on the stack
         u32_xor()         // Final XOR for sigma0 result
     }
-{u32_add(0x8073656e, 0x736f7243)}
+{u32_add(0x0, 0x6c6c6548)}
 // Calculate w[17]
 {
-        u32_push(0x38010000)  // Push x
+        u32_push(0x58000000)  // Push x
         u32_rrot(6)       // Rotate right by 6 bits
-        u32_push(0x38010000)  // Push x again
+        u32_push(0x58000000)  // Push x again
         u32_rrot(11)      // Rotate right by 11 bits
         u32_xor()         // XOR the top two values on the stack
-        u32_push(0x38010000)  // Push x again
+        u32_push(0x58000000)  // Push x again
         u32_rrot(25)      // Rotate right by 25 bits
         u32_xor()         // XOR the top two values on the stack
         u32_xor()         // XOR the top two values on the stack, result is sigma1
     }
 {
-        u32_push(0x696f7420)  // Push x
+        u32_push(0x80646c72)  // Push x
         u32_rrot(7)       // Rotate right by 7 bits
-        u32_push(0x696f7420)  // Push x again
+        u32_push(0x80646c72)  // Push x again
         u32_rrot(18)      // Rotate right by 18 bits
         u32_xor()         // XOR the top two values on the stack
-        u32_push(0x696f7420)  // Push x again
+        u32_push(0x80646c72)  // Push x again
         u32_shr(3)        // Shift right by 3 bits (if u32_shr is available)
         u32_xor()         // XOR the top two values on the stack
         u32_xor()         // Final XOR for sigma0 result
     }
-{u32_add(0x0, 0x776f6273)}
+{u32_add(0x0, 0x6f77206f)}
 // Calculate w[18]
 {
         u32_push(0x0)  // Push x
@@ -69,17 +69,17 @@
         u32_xor()         // XOR the top two values on the stack, result is sigma1
     }
 {
-        u32_push(0x2074656c)  // Push x
+        u32_push(0x0)  // Push x
         u32_rrot(7)       // Rotate right by 7 bits
-        u32_push(0x2074656c)  // Push x again
+        u32_push(0x0)  // Push x again
         u32_rrot(18)      // Rotate right by 18 bits
         u32_xor()         // XOR the top two values on the stack
-        u32_push(0x2074656c)  // Push x again
+        u32_push(0x0)  // Push x again
         u32_shr(3)        // Shift right by 3 bits (if u32_shr is available)
         u32_xor()         // XOR the top two values on the stack
         u32_xor()         // Final XOR for sigma0 result
     }
-{u32_add(0x0, 0x696f7420)}
+{u32_add(0x0, 0x80646c72)}
 // Calculate w[19]
 {
         u32_push(0x0)  // Push x
@@ -93,17 +93,17 @@
         u32_xor()         // XOR the top two values on the stack, result is sigma1
     }
 {
-        u32_push(0x6c6c696b)  // Push x
+        u32_push(0x0)  // Push x
         u32_rrot(7)       // Rotate right by 7 bits
-        u32_push(0x6c6c696b)  // Push x again
+        u32_push(0x0)  // Push x again
         u32_rrot(18)      // Rotate right by 18 bits
         u32_xor()         // XOR the top two values on the stack
-        u32_push(0x6c6c696b)  // Push x again
+        u32_push(0x0)  // Push x again
         u32_shr(3)        // Shift right by 3 bits (if u32_shr is available)
         u32_xor()         // XOR the top two values on the stack
         u32_xor()         // Final XOR for sigma0 result
     }
-{u32_add(0x0, 0x2074656c)}
+{u32_add(0x0, 0x0)}
 // Calculate w[20]
 {
         u32_push(0x0)  // Push x
@@ -117,17 +117,17 @@
         u32_xor()         // XOR the top two values on the stack, result is sigma1
     }
 {
-        u32_push(0x20676e69)  // Push x
+        u32_push(0x0)  // Push x
         u32_rrot(7)       // Rotate right by 7 bits
-        u32_push(0x20676e69)  // Push x again
+        u32_push(0x0)  // Push x again
         u32_rrot(18)      // Rotate right by 18 bits
         u32_xor()         // XOR the top two values on the stack
-        u32_push(0x20676e69)  // Push x again
+        u32_push(0x0)  // Push x again
         u32_shr(3)        // Shift right by 3 bits (if u32_shr is available)
         u32_xor()         // XOR the top two values on the stack
         u32_xor()         // Final XOR for sigma0 result
     }
-{u32_add(0x0, 0x6c6c696b)}
+{u32_add(0x0, 0x0)}
 // Calculate w[21]
 {
         u32_push(0x0)  // Push x
@@ -141,17 +141,17 @@
         u32_xor()         // XOR the top two values on the stack, result is sigma1
     }
 {
-        u32_push(0x656d6147)  // Push x
+        u32_push(0x0)  // Push x
         u32_rrot(7)       // Rotate right by 7 bits
-        u32_push(0x656d6147)  // Push x again
+        u32_push(0x0)  // Push x again
         u32_rrot(18)      // Rotate right by 18 bits
         u32_xor()         // XOR the top two values on the stack
-        u32_push(0x656d6147)  // Push x again
+        u32_push(0x0)  // Push x again
         u32_shr(3)        // Shift right by 3 bits (if u32_shr is available)
         u32_xor()         // XOR the top two values on the stack
         u32_xor()         // Final XOR for sigma0 result
     }
-{u32_add(0x0, 0x20676e69)}
+{u32_add(0x0, 0x0)}
 // Calculate w[22]
 {
         u32_push(0x0)  // Push x
@@ -165,17 +165,17 @@
         u32_xor()         // XOR the top two values on the stack, result is sigma1
     }
 {
-        u32_push(0x20664f20)  // Push x
+        u32_push(0x0)  // Push x
         u32_rrot(7)       // Rotate right by 7 bits
-        u32_push(0x20664f20)  // Push x again
+        u32_push(0x0)  // Push x again
         u32_rrot(18)      // Rotate right by 18 bits
         u32_xor()         // XOR the top two values on the stack
-        u32_push(0x20664f20)  // Push x again
+        u32_push(0x0)  // Push x again
         u32_shr(3)        // Shift right by 3 bits (if u32_shr is available)
         u32_xor()         // XOR the top two values on the stack
         u32_xor()         // Final XOR for sigma0 result
     }
-{u32_add(0x38010000, 0x656d6147)}
+{u32_add(0x58000000, 0x0)}
 // Calculate w[23]
 {
         u32_push(0x0)  // Push x
@@ -189,17 +189,17 @@
         u32_xor()         // XOR the top two values on the stack, result is sigma1
     }
 {
-        u32_push(0x6f726854)  // Push x
+        u32_push(0x0)  // Push x
         u32_rrot(7)       // Rotate right by 7 bits
-        u32_push(0x6f726854)  // Push x again
+        u32_push(0x0)  // Push x again
         u32_rrot(18)      // Rotate right by 18 bits
         u32_xor()         // XOR the top two values on the stack
-        u32_push(0x6f726854)  // Push x again
+        u32_push(0x0)  // Push x again
         u32_shr(3)        // Shift right by 3 bits (if u32_shr is available)
         u32_xor()         // XOR the top two values on the stack
         u32_xor()         // Final XOR for sigma0 result
     }
-{u32_add(0x0, 0x20664f20)}
+{u32_add(0x0, 0x0)}
 // Calculate w[24]
 {
         u32_push(0x0)  // Push x
@@ -213,17 +213,17 @@
         u32_xor()         // XOR the top two values on the stack, result is sigma1
     }
 {
-        u32_push(0x8073656e)  // Push x
+        u32_push(0x0)  // Push x
         u32_rrot(7)       // Rotate right by 7 bits
-        u32_push(0x8073656e)  // Push x again
+        u32_push(0x0)  // Push x again
         u32_rrot(18)      // Rotate right by 18 bits
         u32_xor()         // XOR the top two values on the stack
-        u32_push(0x8073656e)  // Push x again
+        u32_push(0x0)  // Push x again
         u32_shr(3)        // Shift right by 3 bits (if u32_shr is available)
         u32_xor()         // XOR the top two values on the stack
         u32_xor()         // Final XOR for sigma0 result
     }
-{u32_add(0x0, 0x6f726854)}
+{u32_add(0x0, 0x0)}
 // Calculate w[25]
 {
         u32_push(0x0)  // Push x
@@ -247,7 +247,7 @@
         u32_xor()         // XOR the top two values on the stack
         u32_xor()         // Final XOR for sigma0 result
     }
-{u32_add(0x0, 0x8073656e)}
+{u32_add(0x0, 0x0)}
 // Calculate w[26]
 {
         u32_push(0x0)  // Push x
@@ -357,12 +357,12 @@
         u32_xor()         // XOR the top two values on the stack, result is sigma1
     }
 {
-        u32_push(0x38010000)  // Push x
+        u32_push(0x58000000)  // Push x
         u32_rrot(7)       // Rotate right by 7 bits
-        u32_push(0x38010000)  // Push x again
+        u32_push(0x58000000)  // Push x again
         u32_rrot(18)      // Rotate right by 18 bits
         u32_xor()         // XOR the top two values on the stack
-        u32_push(0x38010000)  // Push x again
+        u32_push(0x58000000)  // Push x again
         u32_shr(3)        // Shift right by 3 bits (if u32_shr is available)
         u32_xor()         // XOR the top two values on the stack
         u32_xor()         // Final XOR for sigma0 result
@@ -391,7 +391,7 @@
         u32_xor()         // XOR the top two values on the stack
         u32_xor()         // Final XOR for sigma0 result
     }
-{u32_add(0x0, 0x38010000)}
+{u32_add(0x0, 0x58000000)}
 // Calculate w[32]
 {
         u32_push(0x0)  // Push x
@@ -5140,4 +5140,4 @@
 {u32_add(0x1f83d9ab, 0x6a09e667)} // Add final round results to initial hash value H_INIT[6]
 {u32_add(0x5be0cd19, 0x6a09e667)} // Add final round results to initial hash value H_INIT[7]
 
-Received message: Crossbow toilet killing Game Of Thrones
+Received message: Hello world
