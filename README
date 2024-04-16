@@ -1,0 +1,8 @@
+
+Outputs bitVM compatible u32 function call with proper params implementing SHA256 algo.
+Uses disabled bitcoin opcodes OP_AND, OP_DIV. Does BitVM plan to use some disabled codes ?
+Or a better question, since all computation is offchain and only verification is possible onchain,
+would BitVM use some of the disabled codes specifically OP_AND,OP_DIV.
+If not, we need to work around that limitation.
+
+
