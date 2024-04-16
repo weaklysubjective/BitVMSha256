@@ -196,6 +196,28 @@ fn prepare_message_block(message: &str) -> [u32; 16] {
 }
 
 
+pub fn u32_not() -> String {
+    let mut script = String::new();
+
+    // Append the commands to the string
+    script.push_str("OP_0xFFFFFFFF\n"); // Push the bitmask for a 32-bit integer (all bits set)
+    script.push_str("OP_SWAP\n");       // Swap the top two elements on the stack
+    script.push_str("OP_XOR\n");        // Perform XOR which simulates NOT
+
+    script
+}
+
+pub fn u32_shr(n: u32) -> String {
+    let mut script = String::new();
+
+    // To divide by 2^n, we append OP_2DIV n times to the script.
+    for _ in 0..n {
+        script.push_str("OP_2DIV\n");
+    }
+
+    script
+}
+
 
 
 fn main() {
